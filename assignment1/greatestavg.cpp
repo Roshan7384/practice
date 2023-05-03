@@ -7,7 +7,7 @@ int main() {
 	cin>>t;
 	for(int i=0;i<t;i++)
 	{
-      int a,b,c,avg;
+      float a,b,c,avg;
       cin>>a>>b>>c;
       avg=(a+b)/2;
       if(avg>c)
