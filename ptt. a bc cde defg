@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+  int i,j;
+  for(i=1; i<=4; i++)
+    {
+        for(j=0; j<i; j++)
+        {
+            cout<<(char)(j+i+64);
+        }
+        cout<<endl;
+    }
+}
