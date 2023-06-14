@@ -1,0 +1,17 @@
+#include <iostream>
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+    vector<int> ar;
+    int i;
+    for(i=3;i<=17;i++)
+    {
+      ar.push_back(i);
+    }
+    for(i=0;i<=14;i++)
+    {
+        cout<<ar[i]<<endl;
+    }
+
+    return 0;
+}
